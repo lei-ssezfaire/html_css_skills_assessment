@@ -2,11 +2,34 @@ form input, select {
 	background-color: #ffff99;
 }
 
+
+p {
+	border: 1.5px solid black;
+}
+
+body {
+	font-family: "Lucida Console";
+	background-color: #e6e6ff;
+}
+
+header {
+	color: #ff99ff;
+	font-size: 40pt;
+	text-align: center;
+	margin: .30em;
+}
+
 .emphasis {
 	font-weight: bold;
 }
 
-p {
-	border: 2px solid black;
-	font-style: italic;
+#logo {
+	position: absolute;
+	right: 0em;
+	width: 1em;
+	height: 1em;
+}
+
+#company-name {
+	color: #ff99ff;
 }
