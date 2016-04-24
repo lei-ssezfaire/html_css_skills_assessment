@@ -3,19 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Skills-HTML-CSS</title>
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
 
-    	<h1>We're Hiring!</h1>
+    	<h1>Now Hiring!</h1>
 
-    	<p>Baloonicorn Engineering Co. is currently looking to hire top talent within several of its engineering divisions. Do you think you have what it takes to become part of the dynamic, ever-growing Baloonicorn family? <b>APPLY TODAY</b>!</p>
+    	<p>Baloonicorn Engineering Co. is currently looking to hire top talent within several of its engineering divisions. Do you think you have what it takes to become part of the dynamic, ever-growing Baloonicorn family? <span class="emphasis">APPLY TODAY</span>!</p>
     	<br>
     
     <form>
     	<form action="/application" method="POST">
 	    	<label><h3>Application Form:</h3> 		
 	    		First Name: <input type="text" name="first-name">
-	    		Last Name: <input type="text" name="last-name">
+	    		<span class="emphasis">Last Name: </span><input type="text" name="last-name">
 	    		Salary Requirement: <input type="text" name="salary">
 	    		Job Choice: <select name="job_choice">
 	    			<option value="software-engineer">Software Engineer</option>
@@ -23,7 +24,8 @@
 	    			<option value="Product Manager">Product Manager</option>
 	    		</select> 
 	    	</label>
-	    <input type="submit">
+	    	<br>
+	    <br><input type="submit">
     </form>
 
     </body>
